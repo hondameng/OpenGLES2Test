@@ -1,0 +1,98 @@
+
+{
+	"buildFiles" : [ "/Users/zj-db0145/MyFile/OpenGLES2Test/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/zj-db0145/DevelopTools/Andorid/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/zj-db0145/DevelopTools/Andorid/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/gl_utils.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLProgram.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/FBOProgram.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLTexture.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/matrix.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLContext.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLBaseView.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLStaticView.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLScrollView.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLEngine.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/openglesrgb-jni.cpp",
+					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "13150481047121791710"
+		}
+	},
+	"toolchains" : 
+	{
+		"13150481047121791710" : 
+		{
+			"cCompilerExecutable" : "/Users/zj-db0145/Library/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zj-db0145/Library/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
